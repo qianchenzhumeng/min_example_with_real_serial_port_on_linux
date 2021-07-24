@@ -1,0 +1,12 @@
+[package]
+name = "min_example_with_real_serial_port_on_linux"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serial = { git = "https://github.com/qianchenzhumeng/serial-rs", branch="pi"}
+min-rs = { git = "https://github.com/qianchenzhumeng/min-rs" }
+log = "0.4.14"
+env_logger = "0.9.0"
